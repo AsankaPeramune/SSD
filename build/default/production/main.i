@@ -1735,7 +1735,7 @@ extern __bank0 __bit __timeout;
 #pragma config CP = OFF
 
 unsigned char SSD[]={0x3f, 0x06, 0x5b, 0x4f, 0x66, 0x6d, 0x7c, 0x07, 0x7f, 0x6f};
-unsigned int num = 76 ;
+unsigned int num = 99 ;
 unsigned int i = 0 ;
 unsigned int j = 0 ;
 void main() {

@@ -1,7 +1,7 @@
 
 
 Microchip MPLAB XC8 Assembler V2.05 build -831301201 
-                                                                                               Thu Oct 26 13:40:18 2023
+                                                                                               Thu Oct 26 16:02:10 2023
 
 Microchip MPLAB XC8 C Compiler v2.05 (Free license) build 20181220022703 Og1 
      1                           	processor	16F877A
@@ -185,7 +185,7 @@ Microchip MPLAB XC8 C Compiler v2.05 (Free license) build 20181220022703 Og1
    171  0790                     __pidataCOMMON:	
    172                           
    173                           ;initializer for _num
-   174  0790  344C               	retlw	76
+   174  0790  3463               	retlw	99
    175  0791  3400               	retlw	0
    176                           
    177                           	psect	idataBANK0
@@ -349,11 +349,11 @@ Microchip MPLAB XC8 C Compiler v2.05 (Free license) build 20181220022703 Og1
    335  07B4  0186               	clrf	6	;volatile
    336                           
    337                           ;main.c: 23: }
-   338  07B5  3007               	movlw	7
+   338  07B5  3009               	movlw	9
    339  07B6  00F2               	movwf	_i
    340  07B7  3000               	movlw	0
    341  07B8  00F3               	movwf	_i+1
-   342  07B9  3006               	movlw	6
+   342  07B9  3009               	movlw	9
    343  07BA  00F0               	movwf	_j
    344  07BB  3000               	movlw	0
    345  07BC  00F1               	movwf	_j+1
@@ -488,7 +488,7 @@ EEDATA             100      0       0       0        0.0%
 
 
 Microchip Technology PIC Macro Assembler V2.05 build -831301201 
-Symbol Table                                                                                   Thu Oct 26 13:40:18 2023
+Symbol Table                                                                                   Thu Oct 26 16:02:10 2023
 
                       _i 0072                        _j 0070                        pc 0002  
             __CFG_CP$OFF 0000                       fsr 0004              __CFG_LVP$ON 0000  

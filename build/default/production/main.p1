@@ -252,7 +252,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 [; ;main.c: 15:           PORTCbits.RC0 = 0 , PORTCbits.RC1 = 1 ;
 [v _num `ui ~T0 @X0 1 e ]
 [i _num
--> -> 76 `i `ui
+-> -> 99 `i `ui
 ]
 "16
 [; ;main.c: 16:           PORTB = SSD[i];
